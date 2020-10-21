@@ -1,5 +1,7 @@
 # 一键 V2ray websocket + TLS
 
+sudo docker run -p 80:80 -p 443:443 -e domain=yourdomain -e uuid=your_uuid  imfht/v2ray 
+
 一键就完事了，扫描二维码 或者 复制 vmess链接 无需关心复杂的V2ray 配置，websocket + tls 更安全，伪装更好。
 
 * 自动生成 UUID （调用系统UUID库）
