@@ -1,7 +1,7 @@
 #!/bin/bash
 # FILE="/etc/Caddy"
 domain=$domain
-psname=$1
+psname=V2RAY_WS
 uuid=$uuid
 cat > /etc/Caddyfile <<'EOF'
 domain
